@@ -10,9 +10,9 @@ export class ConnectFourApp extends BaseComponent
         super();
     }
 
-    minMetodeSomSkalSlettes()
+    minMetodeSomSkalSlettes(frame: number)
     {
-        if (!this.model)
+        if (!this.model && !frame)
             return;
     }
 
