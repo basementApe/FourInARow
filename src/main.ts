@@ -1,7 +1,6 @@
 import './style.css'
-import { AppModel } from './components/AppModel'
+import { ConnectFourApp } from './components/ConnectFourApp';
 
 const app = document.querySelector<HTMLDivElement>('#app')!;
 
-const model = new AppModel();
-
+customElements.define("connect-four-app", ConnectFourApp);
