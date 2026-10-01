@@ -10,8 +10,9 @@ export class ConnectFourApp extends BaseComponent
         super();
     }
 
-    minMetodeSomSkalSlettes()
+    minMetodeSomSkalSlettes(martinParm: string)
     {
+        console.log(martinParm, "vær feil!");
         if (!this.model)
             return;
     }
