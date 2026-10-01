@@ -10,6 +10,12 @@ export class ConnectFourApp extends BaseComponent
         super();
     }
 
+    minMetodeSomSkalSlettes()
+    {
+        if (!this.model)
+            return;
+    }
+
     protected render()
     {
         
