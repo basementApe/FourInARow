@@ -2,7 +2,7 @@ import type { AppState } from "../types";
 
 export class AppModel {
   private state: AppState = {
-    selectedPage: "overview",
+    page: "overview",
     selectedGameId: null,
     games: [
       {
@@ -28,4 +28,11 @@ export class AppModel {
       }
     ]
   }
+
+  getState() : AppState
+  {
+    return structuredClone(this.state)
+  }
+
+  
 }

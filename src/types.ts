@@ -1,5 +1,5 @@
 export type AppState = {
-    selectedPage: "overview" | "currentGame",
+    page: "overview" | "currentGame",
     selectedGameId: null | number,
     games: GameSession[]
 }
