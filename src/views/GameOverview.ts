@@ -1,6 +1,6 @@
 import { BaseComponent } from "../components/BaseComponent";
 
-export class GameOverView extends BaseComponent {
+export class GameOverview extends BaseComponent {
     constructor() {
         super();
         this.addEventListener("click", event => {
